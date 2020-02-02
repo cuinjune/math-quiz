@@ -1,22 +1,174 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>
-            Math Quiz
-        </title>
-        <meta name="Math Quiz" content="This is a Math Quiz page" />
-        <meta name="keywords" content="math, quiz, test" />
-        <meta http-equiv="author" content="Zack Lee" />
-        <meta http-equiv="content-language" content="en-us" />
-    </head>
 
-    <body>
-        <h1>
-            Math Quiz
-        </h1>
-        <p>
-            Test your math skills!
-        </p>
-    </body>
+<head>
+    <title>
+        Math Quiz
+    </title>
+    <meta name="Math Quiz" content="This is a Math Quiz page" />
+    <meta name="keywords" content="math, quiz, test" />
+    <meta http-equiv="author" content="Zack Lee" />
+    <meta http-equiv="content-language" content="en-us" />
+    <style>
+        body {
+            background-color: #2F4858;
+        }
+
+        @keyframes blink {
+            from {
+                color: rgb(104, 127, 121);
+            }
+
+            to {
+                color: whitesmoke;
+            }
+        }
+
+        h1.title {
+            font-size: 45px;
+            font-family: Helvetica-Bold;
+            background-color: rgb(104, 127, 121);
+            color: whitesmoke;
+            padding: 20px;
+            border-color: whitesmoke;
+            border-width: 10px;
+            border-style: solid;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 855px;
+            line-height: 0.75em;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        img.blackboard {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            background-color: whitesmoke;
+            width: 896px;
+            height: 457px;
+            margin-top: -20px;
+        }
+
+        h2.subtitle {
+            font-size: 24px;
+            font-family: Helvetica-Regular;
+            background-color: rgb(104, 127, 121);
+            animation-name: blink;
+            animation-duration: 700ms;
+            animation-iteration-count: infinite;
+            padding: 20px;
+            border-color: whitesmoke;
+            border-width: 10px;
+            border-style: solid;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 855px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        h2.subtitle:hover {
+            background-color: rgb(64, 87, 81);
+        }
+
+        div.question {
+            font-size: 18px;
+            font-family: Helvetica-Regular;
+            background-color: rgb(104, 127, 121);
+            color: whitesmoke;
+            border-color: whitesmoke;
+            border-width: 10px;
+            border-style: solid;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 680px;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        a,
+        a.answer:visited,
+        a.answer:active,
+        a.answer:focus {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        a.answer:hover {
+            color: #2F4858;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="title">
+        MATH QUIZ
+    </h1>
+    <img src="blackboard.jpg" class="blackboard" title="blackboard" alt="Math Blackboard Image" />
+
+    <a class="start" href="#question1">
+        <h2 class="subtitle">
+            CLICK TO START!
+        </h2>
+    </a>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <div class="question">
+        <a name="question1">
+            <h3>
+                Okay, let's get started, what is 12345 + 67890?
+            </h3>
+            <ol>
+                <li><a class="answer" href="#wrong">81130</a></li>
+                <li><a class="answer" href="#wrong">80153</a></li>
+                <li><a class="answer" href="#wrong">80244</a></li>
+                <li><a class="answer" href="#question2">80235</a></li>
+            </ol>
+        </a>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <div class="question">
+        <a name="question2">
+            <h3>
+                What is 12345 * 67890?
+            </h3>
+            <ol>
+                <li><a class="answer" href="#question3">838102050</a></li>
+                <li><a class="answer" href="#wrong">838102045</a></li>
+                <li><a class="answer" href="#wrong">838102036</a></li>
+                <li><a class="answer" href="#wrong">838102024</a></li>
+            </ol>
+        </a>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <div class="question">
+        <a name="question3">
+            <h3>
+                What is 12345 - 67890?
+            </h3>
+            <ol>
+                <li><a class="answer" href="#wrong">-55546</a></li>
+                <li><a class="answer" href="#question4">-55545</a></li>
+                <li><a class="answer" href="#wrong">-55544</a></li>
+                <li><a class="answer" href="#wrong">-55543</a></li>
+            </ol>
+        </a>
+    </div>
+
+
+
+</body>
+
 </html>
