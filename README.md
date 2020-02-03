@@ -82,6 +82,7 @@ This is README template is licensed according to [Attribution 4.0 International 
 <!-- References for resources and inspiration -->
 ## References
 
+* EJ Media: [HTML Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf_ZNmuQSXdS197Oyr1L9sPB)
 * EJ Media: [CSS Tutorial for Beginners](https://www.youtube.com/playlist?list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C) 
 * Inspired by [ProProfs : Hard Math Quiz](https://www.proprofs.com/quiz-school/story.php?title=hard-math-quiz)
 * The blackboard image was created by [Pixapopz](https://pixabay.com/photos/math-blackboard-education-classroom-1547018/)
