@@ -1,6 +1,6 @@
 <!-- Every README should start with an H1 -->
 # Math Quiz
-<!-- A one sentence description of the project or assignment -->
+<!-- A one-sentence description of the project or assignment -->
 Simple math questions for fun.
 
 ![Screenshot](screenshot.png)
@@ -22,7 +22,7 @@ I created a web page that provides some basic math questions which users can pla
 <!-- It is essential to describe how to set up your project -->
 ## Setup
 
-<!-- Any knowledge or tools you will need before hand -->
+<!-- Any knowledge or tools you will need beforehand -->
 ### Prerequisites
 
 To try out Math Quiz locally on your browser, you need the followings: 
@@ -45,9 +45,9 @@ To develop this document, you can follow the steps provided below:
 1. Create a fork of this project on Github
 2. Ping the author of this repo via Github Issues to see if they are looking for contributions on the specific feature you're looking to add
 3. Open the file in VS Code and make updates 
-4. Add and commit those changes in your forked github repo
+4. Add and commit those changes in your forked Github repo
 5. Make a pull request specifying what additions and changes were made
-6. Have a nice chat and communication with me about those changes. 
+6. Have a nice chat and communicate with me about those changes. 
 7. Celebrate the contribution! 
 
 <!-- Notes about the deployment -->
