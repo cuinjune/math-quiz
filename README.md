@@ -72,13 +72,6 @@ Please read the [CODE OF CONDUCT](https://www.mozilla.org/en-US/about/governance
 
 This is README template is licensed according to [Attribution 4.0 International (CC BY 4.0) ](https://creativecommons.org/licenses/by/4.0/)
 
-<!-- thank and reference all the things that made your project happen -->
-## Acknowledgements
-
-* [Creative Commons](https://creativecommons.org/licenses/by/4.0/) for their licensing documentation
-* [Openmoji project](https://www.openmoji.org/library/#search=notebook&emoji=1F4D4) for their glyphs
-* [PurpleBooth's Readme Template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-
 <!-- References for resources and inspiration -->
 ## References
 
